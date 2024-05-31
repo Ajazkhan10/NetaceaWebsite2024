@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './typography.scss';
+
+// component
+@import '../components/featured-blog-card/featured-blog-card.scss';
+@import '../components/navbar/navbar.scss';
+@import './styles.scss';
+@import './slick-carousel.scss';
+// modules
+@import '../modules/two-column-hero-section/two-column-hero-section.scss';
+@import '../modules/video-with-text-section/video-with-text-section.scss';
+@import '../modules/netacea-difference-section/netacea-difference-section.scss';
+@import '../modules/with-or-without-netacea/with-or-without-netacea.scss';
+@import '../modules/featured-blog-section/featured-blog-section.scss';
+@import '../modules/testimonial-and-stats-slider/testimonial-and-stats-slider.scss';
+@import '../modules/product-card-section/product-card-section.scss';
+@import '../modules/featured-section/featured-section.scss';
+@import '../modules/two-column-form/two-column-form.scss';
+
+.border-gradient-testimonial-and-stats-slider {
+  background:
+    linear-gradient(#113161, #113161) padding-box,
+    linear-gradient(
+      556deg,
+      rgba(54, 124, 243, 0.5) -21.93%,
+      rgba(54, 124, 243, 0) 20.59%
+    ),
+    linear-gradient(
+      420deg,
+      rgba(54, 124, 243, 0.5) -14.01%,
+      rgba(54, 124, 243, 0) 17.78%
+    ),
+    linear-gradient(
+        50deg,
+        rgba(54, 124, 243, 0.5) -1.83%,
+        rgba(54, 124, 243, 0) 16.05%
+      )
+      border-box;
+  border: 1px solid transparent;
+}

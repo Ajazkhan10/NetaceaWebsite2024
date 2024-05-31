@@ -1,0 +1,37 @@
+.featured-blog-dark-back {
+  background: linear-gradient(180deg, #113161 0%, #0d48ae 100%);
+
+  &::after {
+    @media (min-width: 1024px) {
+      bottom: -31px;
+      height: 32px;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
+      width: 60%;
+    }
+    content: '';
+    height: 24px;
+    bottom: -23px;
+    width: 40%;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
+    background: #0d48ae;
+    z-index: 10;
+  }
+}
+.featured-blog-light-back {
+  &::after {
+    @media (min-width: 1024px) {
+      height: 32px;
+      bottom: -31px;
+    }
+    content: '';
+    height: 24px;
+    width: 60%;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 3% 100%);
+    background: white;
+    z-index: 10;
+  }
+}

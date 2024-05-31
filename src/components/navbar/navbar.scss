@@ -1,0 +1,86 @@
+.mobile-nav-main-container {
+  @media (min-width: 1024px) {
+    height: auto;
+  }
+  height: calc(100vh - 52px);
+}
+
+.menu-container {
+  > .category-menu-link {
+    transition: all 0.3s;
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    > div {
+      opacity: 0;
+      transition: all 1s;
+      animation-delay: 0.3s;
+    }
+  }
+  &:hover {
+    > .category-menu-link {
+      height: auto;
+      overflow: visible;
+      max-height: 750px;
+      > div {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.menu-container-nested {
+  ul {
+    transition: all 0.3s;
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    > li {
+      opacity: 0;
+      transition: all 1s;
+      animation-delay: 0.3s;
+    }
+  }
+  &:hover {
+    ul {
+      height: auto;
+      max-height: 700px;
+      overflow: visible;
+      > li {
+        opacity: 1;
+      }
+    }
+  }
+  @media (min-width: 1024px) {
+    ul {
+      height: auto;
+      max-height: fit-content;
+      overflow: visible;
+      li {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.main-container-menu {
+  background:
+    linear-gradient(#001831, #001831) padding-box,
+    linear-gradient(
+      225deg,
+      rgba(54, 124, 243, 0.5) -1.83%,
+      rgba(54, 124, 243, 0) 16.05%
+    ),
+    linear-gradient(
+      24deg,
+      rgba(54, 124, 243, 0.5) -14.01%,
+      rgba(54, 124, 243, 0) 17.78%
+    ),
+    linear-gradient(
+        142deg,
+        rgba(54, 124, 243, 0.5) -21.93%,
+        rgba(54, 124, 243, 0) 20.59%
+      )
+      border-box;
+  border: 1px solid transparent;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'Aeonik-Pro';
+  src: url(../../public/fonts/AeonikPro-Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Aeonik-Pro';
+  src: url(../../public/fonts/AeonikPro-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Aeonik-Pro';
+  src: url(../../public/fonts/AeonikPro-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Aeonik-Pro';
+  src: url(../../public/fonts/AeonikPro-Medium.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Aeonik-Pro';
+  src: url(../../public/fonts/AeonikPro-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Aeonik-Pro';
+  src: url(../../public/fonts/AeonikPro-Black.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Aeonik-Pro-VF';
+  src: url(../../public/fonts/AeonikPro-VF.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Aeonik-Pro-Air';
+  src: url(../../public/fonts/AeonikPro-Air.otf);
+  font-weight: 400;
+}
+
+.h1,
+h1 {
+  @apply header-1 font-aeronik-pro font-normal text-blue-600;
+}
+
+.h2,
+h2 {
+  @apply header-2 font-aeronik-pro font-normal text-blue-600;
+}
+
+.h3,
+h3 {
+  @apply header-3 font-aeronik-pro font-normal text-blue-600;
+}
+
+.h4,
+h4 {
+  @apply header-4 font-aeronik-pro font-normal text-blue-600;
+}
+
+.h5,
+h5 {
+  @apply header-5 font-aeronik-pro font-normal text-blue-600;
+}
+
+.h6,
+h6 {
+  @apply header-6 font-aeronik-pro font-normal text-blue-600;
+}
+.caption,
+caption {
+  @apply text-16 font-bold uppercase  text-blue-600;
+}
+
+.p,
+p {
+  @apply font-aeronik-pro text-16-more font-normal text-blue-600;
+}
+
+.largeText,
+largeText {
+  @apply font-aeronik-pro  text-32-more font-normal text-gray-900;
+}
+
+.global-richtext-light {
+  h1 {
+    @apply header-1 font-aeronik-pro font-normal text-blue;
+  }
+
+  h2 {
+    @apply header-2 font-aeronik-pro font-normal text-blue;
+  }
+
+  h3 {
+    @apply header-3 font-aeronik-pro font-normal text-blue;
+  }
+
+  h4 {
+    @apply header-4 font-aeronik-pro font-normal text-blue;
+  }
+
+  h5 {
+    @apply header-5 font-aeronik-pro font-normal text-blue;
+  }
+
+  h6 {
+    @apply header-6 font-aeronik-pro font-normal text-blue;
+  }
+  p {
+    @apply mb-4 font-aeronik-pro text-base font-normal text-blue;
+  }
+}
+
+.global-richtext-dark {
+  h1 {
+    @apply header-1 font-aeronik-pro font-normal text-white;
+  }
+
+  h2 {
+    @apply header-2 font-aeronik-pro font-normal text-white;
+  }
+
+  h3 {
+    @apply header-3 font-aeronik-pro font-normal text-white;
+  }
+
+  h4 {
+    @apply header-4 font-aeronik-pro font-normal text-white;
+  }
+
+  h5 {
+    @apply header-5 font-aeronik-pro font-normal text-white;
+  }
+
+  h6 {
+    @apply header-6 font-aeronik-pro font-normal text-white;
+  }
+  p {
+    @apply mb-4 font-aeronik-pro text-base font-normal text-white;
+  }
+}
